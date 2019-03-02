@@ -52,7 +52,7 @@
   },
   "scripts": {
     "build": "gatsby build",
-    "deploy:gh": "gatsby build && gh-pages -d public -b gh-pages",
+    "deploy:gh": "gatsby build && gh-pages -d public -b master",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
